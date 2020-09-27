@@ -1,6 +1,5 @@
 # Generate Depthmaps from KITTI data in C++
 
-Inline-style: 
 ![Example Output](example.png "Example Output")
 
 ## Installation
@@ -13,14 +12,14 @@ Inline-style:
 
 ### Building from source
 
-´´´bash
+```bash
 mkdir build
 cmake ..
 make
-´´´
+```
 
 ## Usage
 
-´´´bash
+```bash
 ./build/bin/kitti-depthmap [cloud_location] [image_location] [velo2cam_calib_location] [cam2cam_calib_location]
-´´´
+```
