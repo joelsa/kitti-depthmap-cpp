@@ -1,6 +1,5 @@
 /build
 /res
-*.png
 *.bin
 todo
 /.vscode
